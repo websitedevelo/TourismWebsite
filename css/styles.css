@@ -1,0 +1,162 @@
+body{
+
+   margin: 0px;
+   text-align: center;
+
+
+}
+.aboutpage{
+     text-align: left;
+}
+.top-container{
+
+}
+h1{
+
+  color: blue;
+  font-size: 4.5rem;
+font-family: 'Mrs Saint Delafield', cursive;
+
+}
+.imgi{
+  radius 20%;
+}
+.down{
+  padding: 5% 10%;
+  height: 20%;
+  text-align: left;
+}
+.img1{
+  height: 300px;
+  width: 300px;
+}
+
+#top-section{
+  /* background-color: white; */
+}
+p{
+
+  font-size: 1.5rem;
+  padding: 0% 7%;
+}
+#img-secion{
+  background-color: green;
+  padding: 3% 7%;
+     text-align: center;
+}
+#imgsection{
+  background-color: white;
+  height: 400px
+  width 100px
+
+}
+.images {
+  height: 200px
+  width 100px
+
+}
+h1:hover{
+  color: green;
+}
+p:hover{
+
+  color: black;
+}
+.bottom-conainer{
+  padding: 10%
+
+
+font-size: 1.5rem;
+text-align: center;
+  background-color:green;
+
+}
+
+
+h2{
+  font-size: 2.5rem;
+  color: green;
+
+}
+h2:hover{
+  color: black;
+
+}
+.img11{
+  height: 200px;
+  width 100%;
+  display: block;
+  height: auto;
+  border-radius: 50%;
+  padding: 5% 6%;
+}
+* {box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+#contact{
+  padding: 3% 6%;
+  background-color: blue;
+  color: white;
+}
+.lastsection{
+  margin-top: 20px
+  margin-right: 20px;
+  margin-left: 20px;
+color: white;
+
+}
+.lastsection:hover{
+  color: green;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
